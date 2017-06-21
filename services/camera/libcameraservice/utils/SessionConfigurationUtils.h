@@ -133,7 +133,7 @@ convertToHALStreamCombination(
     const String8 &logicalCameraId, const CameraMetadata &deviceInfo,
     metadataGetter getMetadata, const std::vector<std::string> &physicalCameraIds,
     aidl::android::hardware::camera::device::StreamConfiguration &streamConfiguration,
-    bool overrideForPerfClass, bool *earlyExit, bool isPriviledgedClient = false);
+    bool overrideForPerfClass, bool *earlyExit, bool isPrivilegedClient = false);
 
 StreamConfigurationPair getStreamConfigurationPair(const CameraMetadata &metadata);
 
